@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+body{
+    background-color: #EEEEEE;
+}
+h1{
+    margin: 30px;
+}
+.menu{
+    justify-content: space-between;
+    display: flex;
+    background-color: #2D3426;
+    height: 70px;
+    align-items: center;
+}
+.menu h1{
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 20px;
+}
+.menu a{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+.menu img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+.Principal{
+
+    width: 100%;
+   justify-content: center;
+   gap: 30px;     
+    display: flex;
+    align-items: center;
+}
+.price{
+    padding: 5px;
+    display: flex;
+}
+.preco{
+    
+    display: flex;
+    margin-right: 10px;
+    text-decoration: line-through;
+    
+}
+.card{
+    width: 270px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+   padding: 10px;
+    
+}
+.card img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.star {
+    display: flex;
+    color: gray;
+    width: 100%;
+
+    
+}
+.star p{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.card h2{
+    
+    font-size: 0.9rem;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.btn{
+    background-color: rgb(107, 255, 107);
+    width: 100%;
+    justify-content: center;
+   
+    
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    font-size: 0.8rem;
+    border-color: transparent;
+    align-items: center;
+    text-align: center;
+
+}
+.btn1{
+    background-color: transparent;
+    border: transparent;
+}
